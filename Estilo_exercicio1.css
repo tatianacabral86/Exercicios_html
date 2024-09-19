@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>   
+    <style>
+	.box-title{
+		
+		padding: 20px;
+		border: 5px solid #007bFF;
+		margin: 30px;
+		background-color: #green;
+	}
+
+	section{
+		background-color: #F5FFFA;
+		padding: 50px
+	}
+	
+	footer{
+		background-color: #00008B;
+		color: white;
+		text-align: center;		
+		padding: 10px
+	}	
+
+	
+  h1{
+		background-color: #AFEEEE;
+		color: white;
+		font-family: verdana;
+		font-size: 300%;		
+}
+
+   h2{
+		color: green;
+		font-family: consolas;
+		font-size: 200%;		
+}
+
+
+a:hover{
+	color: red;
+}
+
+p{
+	font-size: 16px;
+	margin: 10px 0;	  
+}
+   
+
+   
+   p::first-letter{
+	   font-size: 2em;
+	   color: blue;
+   }
+   
+   li: nth-child(odd)
+   {
+	   background-color: lightgray;
+   }
+   
+
+
+
+h1{
+border-width: medium;
+border-style: solid;
+border-color: #C0C0C0;
+	}
+p   {
+border-width: 3px;
+border-style: dashed;
+border-color: #AFEEEE;
+	}
+</style>
+</head>
